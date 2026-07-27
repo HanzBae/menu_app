@@ -9,7 +9,7 @@
 </head>
 <body class="bg-gray-100 min-h-screen">
     <nav class="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md">
-        <a href="{{ route('menu.index') }}" class="font-bold text-2xl">🍽 Cafe Hanz</a>
+        <a href="{{ route('menu.index') }}" class="font-bold text-2xl">🍽 Mewek Order</a>
         <a href="{{ route('login') }}" class="text-xs text-blue-100 hover:text-white hover:underline">Login Owner</a>
     </nav>
 
