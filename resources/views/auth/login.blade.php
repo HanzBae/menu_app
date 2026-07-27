@@ -40,10 +40,6 @@
                         </form>
 
                         <hr class="my-4">
-                        <div class="text-muted small">
-                            <p class="mb-1"><strong>Akun Owner (default):</strong></p>
-                            <p class="mb-0">owner@cafehanz.com / owner123</p>
-                        </div>
 
                         <div class="text-center mt-3">
                             <a href="{{ route('menu.index') }}" class="text-decoration-none small">&larr; Kembali ke halaman menu</a>
