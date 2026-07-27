@@ -9,7 +9,7 @@
 </head>
 <body class="bg-gray-100 min-h-screen">
     <nav class="bg-gray-800 text-white p-4 flex flex-col md:flex-row justify-between items-center shadow-md gap-3">
-        <a href="{{ route('owner.dashboard') }}" class="font-bold text-2xl">🍽 Cafe Hanz <span class="text-xs font-normal text-gray-300">(Owner)</span></a>
+        <a href="{{ route('owner.dashboard') }}" class="font-bold text-2xl">🍽 Mewek Order <span class="text-xs font-normal text-gray-300">(Owner)</span></a>
         <div class="flex items-center space-x-4 text-sm">
             <a href="{{ route('owner.dashboard') }}" class="hover:underline {{ request()->routeIs('owner.dashboard') ? 'font-bold underline' : '' }}">Dashboard</a>
             <a href="{{ route('owner.menu.index') }}" class="hover:underline {{ request()->routeIs('owner.menu.*') ? 'font-bold underline' : '' }}">Kelola Menu</a>
